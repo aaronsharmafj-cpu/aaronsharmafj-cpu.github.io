@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aaron Sharma</title>
+  <meta name="description" content="Aaron Sharma — News Exchange Operator and VibeCoder based in Sydney, NSW." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav>
+    <span class="logo">AS</span>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="greeting">// hi, I'm</p>
+      <h1>Aaron Sharma</h1>
+      <h2>News Exchange Operator<br />&amp; <span class="accent">VibeCoder</span><span class="cursor" aria-hidden="true"></span></h2>
+      <p class="bio">
+        I run live broadcast operations at Sky News Australia — and build software that solves real problems for the people around me.
+      </p>
+      <a href="#contact" class="cta">get in touch</a>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <span class="section-label">01. about</span>
+    <div class="about-grid">
+      <div class="about-text">
+        <h3>About Me</h3>
+        <p>
+          I'm a News Exchange Operator at Sky News Australia, based in Sydney — I'm the person making sure live news makes it to air on time, every time.
+        </p>
+        <p>
+          On the side, I write code. I built an AI-powered transcription tool used internally at Sky News, and I'm in the early stages of launching a web design agency to help Australian businesses get their first online presence.
+        </p>
+        <p>
+          I study Law &amp; Communications at Western Sydney University. The "VibeCoder" part is honest — I build with intention, and I care about the details.
+        </p>
+      </div>
+      <div class="about-photo">
+        <!--
+          To add your photo:
+          1. Save your image as avatar.jpg in this folder
+          2. The placeholder initials will disappear automatically
+        -->
+        <div class="avatar-wrapper">
+          <div class="avatar">
+            <span class="avatar-initials" aria-hidden="true">AS</span>
+            <img
+              src="avatar.jpg"
+              alt="Aaron Sharma"
+              onerror="this.style.display='none'"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <span class="section-label">02. projects</span>
+    <h3>Things I've Built</h3>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-top">
+          <svg class="project-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+          </svg>
+          <span class="project-badge">Internal Tool</span>
+        </div>
+        <h4 class="project-title">Sky News Transcription</h4>
+        <p class="project-desc">
+          A locally-hosted AI transcription backend built for Sky News producers. Upload any press conference or interview, and receive a full transcript with timestamps and SRT subtitle file — automatically, powered by GPU.
+        </p>
+        <ul class="project-tech">
+          <li>Python</li>
+          <li>FastAPI</li>
+          <li>Whisper AI</li>
+          <li>CUDA</li>
+          <li>RTX 3060 Ti</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <svg class="project-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+          </svg>
+          <span class="project-badge project-badge--wip">In Development</span>
+        </div>
+        <h4 class="project-title">Web Design Agency</h4>
+        <p class="project-desc">
+          A branding-first web design agency launching in Australia — helping businesses without an online presence get their first website, affordably. Rolex-inspired aesthetic: minimal, premium, trustworthy.
+        </p>
+        <ul class="project-tech">
+          <li>WordPress</li>
+          <li>Squarespace</li>
+          <li>Canva</li>
+          <li>Photoshop</li>
+        </ul>
+      </div>
+
+      <div class="project-card project-card--more">
+        <p class="more-coming">More coming soon...</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills">
+    <span class="section-label">03. skills</span>
+    <h3>What I Work With</h3>
+    <div class="skills-grid">
+
+      <div class="skill-group">
+        <h4>Development</h4>
+        <ul>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>HTML &amp; CSS</li>
+          <li>FastAPI</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h4>AI &amp; Tools</h4>
+        <ul>
+          <li>Whisper AI</li>
+          <li>CUDA / GPU</li>
+          <li>Git</li>
+          <li>Uvicorn</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h4>Design &amp; Web</h4>
+        <ul>
+          <li>WordPress</li>
+          <li>Squarespace</li>
+          <li>Canva</li>
+          <li>Photoshop</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <span class="section-label">04. contact</span>
+    <h3>Get In Touch</h3>
+    <p>
+      Whether it's a project, a collaboration, or just to say hello — my inbox is open.
+    </p>
+    <a href="mailto:aaronsharmafj@gmail.com" class="email-link">aaronsharmafj@gmail.com</a>
+    <div class="social-links">
+      <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <p>Designed &amp; built by Aaron Sharma</p>
+  </footer>
+
+</body>
+</html>
